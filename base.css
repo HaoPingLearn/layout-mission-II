@@ -1,0 +1,18 @@
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	line-height: 1.5;
+}
+*,*::before,*::after {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+a {
+	text-decoration: none;
+}
+/*這是 html sub tag https://www.w3schools.com/tags/tag_sub.asp */
+sub {
+	vertical-align: sub;
+}
