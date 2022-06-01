@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 139px;
+    z-index: 100;
+}
+
+.logo {
+    max-width: 218px;
+    align-items: center;
+}
+.redirect_fee {
+    background-color: #FF5D50;
+    color:#FFFFFF;
+    border-radius: 22px;
+    padding: 8px 32px;
+    font-size: 16px;
+    max-width: 128px;
+    align-items: center;
+    display: block;
+}
+
+.redirect_fee:hover {
+    background-color: #56C4C5;
+}
