@@ -1,7 +1,20 @@
+.main_body {
+    background-image:
+        url('../Images/bg_home.svg');
+    background-position: right top, 150% 50%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: relative;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 24px 139px;
+    padding: 24px 0;
     z-index: 100;
 }
 
@@ -9,9 +22,10 @@
     max-width: 218px;
     align-items: center;
 }
+
 .redirect_fee {
     background-color: #FF5D50;
-    color:#FFFFFF;
+    color: #FFFFFF;
     border-radius: 22px;
     padding: 8px 32px;
     font-size: 16px;
@@ -22,5 +36,597 @@
 
 .redirect_fee:hover {
     background-color: #56C4C5;
+}
 
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 101px;
+}
+
+.banner_text_block {
+    width: 50%;
+    padding: 158px 0;
+}
+
+.banner_text1 {
+    color: #56C4C5;
+    font-size: 18px;
+}
+
+.banner_text2 {
+    color: #221E1F;
+    font-size: 48px;
+}
+
+.banner_text3 {
+    color: #221E1F;
+    font-size: 20px;
+}
+
+.banner_img {
+    max-width: 532px;
+    width: 50%;
+}
+
+.plaform {
+    text-align: center;
+    font-size: 32px;
+    font: normal normal bold 32px/46px Noto Sans TC;
+    margin-bottom: 100px;
+}
+
+.plaform h2 {
+    margin-bottom: 48px;
+}
+
+.plaform_list {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+}
+
+.plaform_list li {
+    width: 30%;
+    text-align: center;
+}
+
+.plaform_list img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 24px;
+}
+
+.plaform_list h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px
+}
+
+.plaform_list p {
+    color: #747474;
+    padding: 0px 10px;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.role {
+    text-align: center;
+    font-size: 32px;
+    font: normal normal bold 32px/46px Noto Sans TC;
+}
+
+.role h2 {
+    margin-bottom: 16px;
+}
+
+.role h3 {
+    font-size: 20px;
+    color: #221E1F;
+    margin-bottom: 48px;
+    font: normal normal normal 20px/29px Noto Sans TC;
+}
+
+.role_list {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    max-width: 1088px;
+}
+
+.role_list li {
+    width: 24%;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0px 2px 10px #00000014;
+    background-color: white;
+}
+
+.role_list h4 {
+    color: #56C4C5;
+    font-size: 16px;
+}
+
+.role_list p {
+    color: #221E1F;
+    font-size: 16px;
+    font: normal normal normal 16px/24px Noto Sans TC;
+    padding: 24px 16px;
+}
+
+.brand_function {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.brand_items {
+    width: 50%;
+}
+
+.brand_text {
+    width: 50%;
+}
+
+.transfer {
+    margin-right: 47px;
+    margin-bottom: 25px;
+}
+
+.chat_bot {
+    margin-bottom: 25px;
+}
+
+.brand_items ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand_items li {
+    width: 40%;
+    padding: 32px 32px 48px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0px 2px 10px #00000014;
+}
+
+.brand_items h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.brand_items p {
+    font: normal normal normal 16px/24px Noto Sans TC;
+}
+
+.brand_icon {
+    width: 86px;
+    height: 86px;
+    padding: 17px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px #00000014;
+    margin-bottom: 24px;
+}
+
+.brand_text h2 {
+    font: normal normal bold 32px/46px Noto Sans TC;
+    margin-bottom: 16px;
+}
+
+.brand_text h3 {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.customer_reviews {
+    text-align: center;
+    font: normal normal bold 32px/46px Noto Sans TC;
+    margin-bottom: 134px;
+}
+
+.customer_reviews h2 {
+    margin-bottom: 48px;
+}
+
+.customer_reviews ul {
+    display: flex;
+}
+
+.customer_reviews li {
+    position: relative;
+    padding: 48px 32px 24px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0px 2px 10px #00000014;
+    background-color: white;
+}
+
+.customer_reviews p {
+    font: normal normal normal 16px/24px Noto Sans TC;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #E5E4E2;
+    margin-bottom: 28px;
+}
+
+.customer_reviews h2 {
+    margin-bottom: 100px;
+}
+
+.customer_reviews h3 {
+    font: normal normal bold 16px/24px Noto Sans TC;
+}
+
+.customer_reviews span {
+    font: normal normal normal 16px/24px Noto Sans TC;
+}
+
+.customer_picture {
+    position: absolute;
+    top: -60px;
+    left: 32px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+}
+
+.customer_star {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    height: 500px;
+    background-image: url(../Images/home_footer.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer h3 {
+    text-align: center;
+    font: normal normal bold 32px/46px Noto Sans TC;
+    margin-bottom: 48px;
+}
+
+.footer a {
+    margin: 0 auto;
+}
+
+.footer p {
+    background-color: #F5F5F5;
+    padding: 16px 0;
+}
+
+.pay_body {
+    background-image: url(../Images/banner.svg);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+
+.pay_banner {
+    margin-top: 92px;
+    margin-bottom: 100px;
+}
+
+.pay_banner h2 {
+    font: normal normal bold 48px/70px Noto Sans TC;
+}
+
+
+.pay_footer {
+    padding-top: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pay_footer p {
+    background-color: #F5F5F5;
+    padding: 16px 0;
+    margin-bottom: 16px;
+    font: normal normal normal 16px/24px Noto Sans TC;
+}
+
+.plan {
+    margin-bottom: 100px;
+}
+
+.plan h2,
+.faq h2 {
+    font: normal normal bold 32px/46px Noto Sans TC;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.plan_option ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.plan_option a {
+    color: #56C4C5;
+    border: 1px solid #56C4C5;
+    border-radius: 27px;
+    padding: 12px 32px;
+    margin-right: 16px;
+}
+
+.plan_option a:hover {
+    color: #FFFFFF;
+    background-color: #56C4C5;
+}
+
+.plan_detail {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.plan_basic {
+    margin-right: 21px;
+}
+
+.plan_basic,
+.plan_pro {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 10px #00000014;
+}
+
+.plan_basic>h2,
+.plan_pro>h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 0;
+}
+
+.basic_item,
+.pro_item {
+    padding: 32px 24px;
+}
+
+.basic_item>p,
+.pro_item>p {
+    text-align: center;
+    margin-bottom: 32px;
+    line-height: 1.5;
+    align-items: center;
+}
+
+.plan_pay {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+}
+
+.plan_pay li {
+    background-color: #F5F5F5;
+    padding: 24px 25px;
+    border-radius: 12px;
+}
+
+.plan_pay li>p {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.user>p {
+    font-size: 32px;
+    color: #56C4C5;
+    display: inline-block;
+}
+
+.user>span {
+    color: #56C4C5;
+    font-size: 12px;
+}
+
+.charge>p {
+    font-size: 32px;
+    display: inline-block;
+}
+
+.charge>span {
+    font-size: 12px;
+}
+
+.plan_pay .equal_style {
+    background-color: white;
+    align-self: center;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.plan_features {
+    margin-bottom: 32px;
+}
+
+.plan_features li {
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+.plan_features p {
+    background-image: url('../Images/icon_check.svg');
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 1.5;
+    padding-left: 30px;
+}
+
+.basic_item a,
+.pro_item a {
+    display: block;
+    margin: 0 auto;
+    width: 136px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 27px;
+    font-size: 18px;
+    background-color: #FF5D50;
+    text-decoration: none;
+}
+
+.basic_item a:hover,
+.pro_item a:hover {
+    color: #FFFFFF;
+    border: 1px solid #56C4C5;
+    background-color: #56C4C5;
+}
+
+.faq li {
+    padding: 16px 32px;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.faq_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq_title button {
+    background-color: white;
+    border: none;
+}
+
+.answer {
+    padding: 24px 0px;
+    line-height: 1.5;
+    color: #747474;
+}
+
+@media(max-width:380px) {
+    .main_body {
+        background-image:
+            url('../Images/bg_home_sm.svg');
+        background-position: 5% 5%, 5% 5%;
+        background-size: 85%, 200px;
+    }
+
+    .header {
+        display: flex;
+        padding-bottom: 15px;
+    }
+
+    .logo {
+
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .redirect_fee {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+
+    .banner {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .banner_text_block {
+        width: 100%;
+        padding: 32px 20px;
+    }
+
+    .banner_img {
+        width: 100%;
+    }
+
+    .banner_text1 {
+        font: normal normal bold 16px/24px Noto Sans TC;
+    }
+
+    .banner_text2 {
+        margin-bottom: 16px;
+        font: normal normal bold 32px/46px Noto Sans TC;
+    }
+
+    .banner_text3 {
+        font: normal normal normal 16px/24px Noto Sans TC;
+    }
+
+    .plaform_list {
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .plaform_list li {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+
+    /*任務*/
+    .role_list {
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+
+    .role_list li,
+    .brand_items,
+    .brand_text {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+
+    .brand_function {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+
+    .brand_items ul,
+    .customer_reviews ul {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .brand_items ul li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .customer_reviews li {
+        margin-bottom: 60px;
+    }
+
+    .customer_picture {
+        top: -40px;
+    }
+
+    .customer_reviews {
+        margin-bottom: 94px;
+    }
+
+    .footer p {
+        margin-top: 60px;
+    }
 }
