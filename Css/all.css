@@ -113,7 +113,6 @@
 
 .role {
     text-align: center;
-    font-size: 32px;
     font: normal normal bold 32px/46px Noto Sans TC;
 }
 
@@ -122,16 +121,15 @@
 }
 
 .role h3 {
-    font-size: 20px;
+    font: normal normal normal 20px/29px Noto Sans TC;
     color: #221E1F;
     margin-bottom: 48px;
-    font: normal normal normal 20px/29px Noto Sans TC;
 }
 
 .role_list {
     display: flex;
-    margin-bottom: 100px;
     justify-content: space-between;
+    margin-bottom: 100px;
     max-width: 1088px;
 }
 
@@ -140,20 +138,20 @@
     border-radius: 12px;
     border: none;
     box-shadow: 0px 2px 10px #00000014;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .role_list h4 {
     color: #56C4C5;
-    font-size: 16px;
+    font: normal normal bold 16px/24px Noto Sans TC;
 }
 
 .role_list p {
     color: #221E1F;
-    font-size: 16px;
     font: normal normal normal 16px/24px Noto Sans TC;
     padding: 24px 16px;
 }
+
 
 .brand_function {
     display: flex;
@@ -582,7 +580,6 @@
         margin-bottom: 30px;
     }
 
-    /*任務*/
     .role_list {
         align-items: center;
         flex-direction: column;
@@ -590,7 +587,11 @@
         margin-bottom: 60px;
     }
 
-    .role_list li,
+    .role_list li {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+
     .brand_items,
     .brand_text {
         width: 85%;
